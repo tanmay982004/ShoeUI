@@ -1,0 +1,47 @@
+/* ProductList.css */
+.product-list {
+    padding: 20px;
+    max-width: 800px; /* Set a max width for the list */
+    margin: 0 auto; /* Center the list */
+}
+
+.product-list ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.product-list li {
+    border: 1px solid #ccc; /* Add a border */
+    padding: 15px;
+    margin: 10px 0; /* Space between products */
+    border-radius: 5px; /* Rounded corners */
+    transition: box-shadow 0.2s; /* Smooth shadow effect */
+}
+
+.product-list li:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+/* src/components/ProductList.css */
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-message {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #d4edda; /* Light green */
+    border: 1px solid #c3e6cb; /* Border */
+    color: #155724; /* Dark green text */
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}

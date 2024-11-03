@@ -1,0 +1,27 @@
+/* src/Components/Home.css */
+.home {
+    text-align: center;
+    padding: 20px;
+}
+
+.shoe-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between images */
+    flex-wrap: wrap; /* Wrap images on smaller screens */
+}
+
+.shoe-gallery img {
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+}
+
+.image-container img {
+    width: 100%; /* Full width of its parent */
+    max-width: 1500px; /* Maximum width */
+    height: 600px; /* Maintain aspect ratio */
+  }
+  
+  

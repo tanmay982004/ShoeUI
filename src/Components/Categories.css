@@ -1,0 +1,48 @@
+/* src/components/Categories.css */
+.categories-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .categories-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .category-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    cursor: pointer; /* Change cursor to pointer */
+    transition: transform 0.3s;
+  }
+  
+  .category-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .category-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .products-list {
+    margin-top: 20px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .products-list ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  .products-list li {
+    border-bottom: 1px solid #ccc; /* Add a separator */
+    padding: 10px 0; /* Add padding */
+  }
+  

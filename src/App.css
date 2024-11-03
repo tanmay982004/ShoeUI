@@ -1,0 +1,62 @@
+/* App.css */
+* {
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  box-sizing: border-box; /* Ensure padding and borders are included in width/height */
+}
+
+.app-container {
+  display: flex;
+  background-color:#dcdcdc;
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Full viewport height */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the app takes full height */
+}
+
+main {
+  flex: 1; /* Allows main to grow and fill the available space */
+  padding: 20px; /* Adjust spacing as needed */
+}
+
+
+/* Main content should expand to fill the available space */
+main {
+  flex: 1; /* Allow the main content to grow and fill the available space */
+}
+
+/* Optional: Style your header and footer */
+header {
+  background-color: #f8f9fa; /* Example header color */
+  padding: 20px;
+}
+
+footer {
+  background-color: #343a40; /* Match footer's dark background color */
+  padding: 8px; /* Match footer padding */
+  text-align: center; /* Center footer text */
+  color: white; /* Ensure text color is white for contrast */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}

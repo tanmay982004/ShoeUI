@@ -1,0 +1,24 @@
+/* Footer.css */
+.footer {
+    background-color: #343a40; /* Dark background color for the footer */
+    color: white; /* White text color for contrast */
+    padding: 8px;
+    width: 100%; /* Full width */
+    text-align: center; /* Center the text */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.footer-content {
+    max-width: 1200px; /* Maximum width for content */
+    margin: 0 auto; /* Center the content */
+}
+
+/* Optional: Add hover effect for footer links if any */
+.footer a {
+    color: #ffffff;
+    text-decoration: none; /* No underline */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
